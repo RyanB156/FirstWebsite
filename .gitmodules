@@ -1,0 +1,3 @@
+[submodule "Shooter"]
+	path = Shooter
+	url = https://github.com/RyanB156/JSShooter.git
