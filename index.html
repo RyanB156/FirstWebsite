@@ -12,10 +12,30 @@
             <a class="active" href="#home">Home</a>
             <a href="Snake/index.html">Snake</a>
             <a href="Shooter/index.html">Shooter</a>
+            <button onclick="document.getElementById('modal').style.display='block';">Login</button>
+        </div>
+        
+        <div id="modal" class="modal">
+            <form action="">
+                <div class="container">
+                    <label for="uname"><b>Username</b></label>
+                    <input id="modal_username" type="text" placeholder="Enter Username" name="uname" required>
+    
+                    <label for="pswd"><b>Password</b></label>
+                    <input id="modal_password" type="password" placeholder="Enter Password" name="pswd" required>
+                    
+                    <button onclick="login()">Login</button>
+
+                    <button onclick="document.getElementById('modal').style.display='none';">Cancel</button>
+                </div>
+            </form>
+            
         </div>
 
 
-        <!--Canvas for Shooter is being displayed wierdly. Need to make sure it does not scroll...-->
+        <div>
+            <p>A collection of games and applications written in JavaScript with HTML and CSS</p>
+        </div>
 
     </body>
 </html>
